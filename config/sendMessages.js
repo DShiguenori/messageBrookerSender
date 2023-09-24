@@ -2,7 +2,6 @@ require('dotenv').config();
 const { ServiceBusClient } = require('@azure/service-bus');
 const destinationList = require('./destinations.json');
 
-
 module.exports.start = async () => {
 	console.log('---------------------- START ----------------------');
 
@@ -42,14 +41,3 @@ async function publishMessageToQueue(queue, connectionString, messagePayload) {
 		await sbClient.close();
 	}
 }
-
-const destinationList = [
-	{
-		name: 'Danilo',
-		email: 'daniloshiguenori@gmail.com',
-	},
-	{
-		name: 'Danilo Uema',
-		email: 'danilo.uema@bnpsolucoes.com.br',
-	},
-];
