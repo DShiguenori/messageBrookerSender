@@ -1,0 +1,9 @@
+node_modules
+excelIn
+excelOut
+.vscode
+.env
+destination.json
+output_files/*
+excel_to_split
+excel_to_join
