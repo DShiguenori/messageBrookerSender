@@ -18,14 +18,13 @@ You'll need nodeJs installed as well, you know the drill.
 
 ### 1. Setup the config files
 
-Look at the **example-.env** and **example-destination.json**
+Look at the **example-.env**
 
-Put both of these files in the root, without the **example-** tag
+Copy this file in the root, without the **example-** tag
 
--   .env
--   destination.json
+> .env
 
-Modify then accordingly.
+Modify it accordingly.
 
 ### 2. Commands
 
@@ -33,7 +32,6 @@ Restore the packages:
 
 ```bash
 npm install
-
 ```
 
 Run
